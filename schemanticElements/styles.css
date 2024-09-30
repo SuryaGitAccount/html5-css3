@@ -1,0 +1,46 @@
+
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.banking-grid{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100vh;
+
+}
+header{
+    grid-area: 'header';
+    background-color: #b8119c;
+    color: rgb(230, 226, 221);
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+main{
+    grid-area: 'main';
+    
+
+}
+footer{
+    grid-area: 'footer';
+    background-color: #cf0c2d;
+    color: rgb(230, 226, 221);
+  
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+/*margin issues,padding issues*/
